@@ -94,9 +94,31 @@ header{
     width: 100%;
     height: 100px;
     background-color: rgb(8, 11, 18);
+  
 }
 .logo{
     padding: 15px;
+}
+.header-top{
+    background-color: rgb(8, 11, 18);
+    display: flex;
+    justify-content: flex-end;
+}
+.upgrade{
+    background-color:rgb(8, 11, 18) ;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    margin: 10px 20px;
+    
+}
+.header-bottom{
+    background-color: rgb(20, 25, 34);
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    
 }
 /*************************************************************************
 main
