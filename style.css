@@ -91,7 +91,7 @@ header{
     left: 20vh;
     right: 0;
     top: 0;
-    width: 100%;
+    width: calc(100% - 20vh);
     height: 100px;
     background-color: rgb(8, 11, 18);
   
@@ -110,7 +110,7 @@ header{
     width: 200px;
     border-radius: 40px;
     margin: 10px 20px;
-    
+    border: solid 1px white;
 }
 .header-bottom{
     background-color: rgb(20, 25, 34);
@@ -118,7 +118,6 @@ header{
     justify-content: space-between;
     width: 50%;
     margin: 0 auto;
-    
 }
 /*************************************************************************
 main
