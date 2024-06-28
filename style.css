@@ -14,7 +14,7 @@ general
     color: rgb(163, 163, 163);
 }
 img{
-    max-width: 100%;
+    max-width:100%;
 }
 body{
     background-color:rgb(20, 25, 34);
@@ -32,13 +32,10 @@ nav {
     background-color: rgb(0, 0, 0);
     height: calc(100vh - 100px);
     position: relative;
-  } 
+  }
   li{
     list-style: none;
     font-size: 1.5rem;
-  }
-  a{
-    width: 100%;
   }
   span{
     height: 100px;
@@ -92,9 +89,8 @@ header{
     right: 0;
     top: 0;
     width: calc(100% - 20vh);
-    height: 100px;
+    height: 70px;
     background-color: rgb(8, 11, 18);
-  
 }
 .logo{
     padding: 15px;
@@ -112,19 +108,24 @@ header{
     margin: 10px 20px;
     border: solid 1px white;
 }
-.header-bottom{
-    background-color: rgb(20, 25, 34);
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: 0 auto;
-}
 /*************************************************************************
 main
 ***********************************************************************/
 main{
-    margin-top: 100px;
     width: calc(100% - 20vh);
+    margin-top: 70px;
+}                      
+a{
+    width: 100%;
+    text-decoration: none;
+  }
+.main-top{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+}
+.recently-played h2{
+    font-size: 2rem;
 }
 /*************************************************************************
 footer
@@ -136,4 +137,65 @@ footer{
     width: 100%;
     height: 100px;
     background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: space-between;
+}
+.my-song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.img-my-song{
+    width: 50px;
+    height: 50px;
+}
+.title-my-song{
+    color:white;
+    padding-left: 10px;
+}
+.author-my-song{
+    font-size: 0.7rem;
+}
+.fa-regular,
+.fa-solid{
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+.player-song{
+    margin-top: 20px;
+}
+.player-top{
+    display: flex;
+    justify-content: center;
+}
+.player-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time-song{
+    height: 5px;
+    width: 400px;
+    border-radius: 5px;
+    border: solid 1px rgb(90, 90, 90);
+    background-color:rgb(90, 90, 90) ;
+    margin: 15px;
+}
+.song-listen{
+    background-color:white;
+    border-radius: 4px;
+    width: 20%;
+    height: 4px;
+}
+.volume{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.volume .time-song{
+    width: 100px;
+}
+.volume > .fa-solid{
+    font-size: 1rem;
 }
